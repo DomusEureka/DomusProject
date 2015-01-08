@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+	margin-bottom: 60px;
+}
+
+@media (min-width: 769px){
+/*[id|="Home"]{
+	background: url(../img/background.jpg) fixed;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size : cover;
+}*/
+[id|="Home"]{
+	background: url(../img/bedge_grunge.png) repeat;
+}
+}
+
+.jumbotron{
+	background: url(../img/jumbotron.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size: cover;
+	height: 500px;
+}
+
+.jumbotron h1{
+    color: #fff;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+.navbar-text-center {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.navbar-text-center{
+	float: center;
+	text-align: center;
+	margin-left: 15px;
+    margin-right: 15px;
+}
+.navbar-inverse .navbar-text-center {
+  color: #9d9d9d;
+}
